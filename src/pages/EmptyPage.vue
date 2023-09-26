@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import { computed, reactive } from "vue";
+
 // import { useStore } from "src/stores/store";
 // import { onMounted } from "vue";
 // import { date } from "quasar";
@@ -9,6 +11,16 @@
 // onMounted(() => {
 //   store.many_GetAll();
 // });
+
+const author = reactive({
+  fname: "John",
+  lname: "Doe",
+  books: ["Vue 2 - Advanced Guide", "Vue 3 - Basic Guide"],
+});
+
+const fullName = computed(() => {
+  return `${author.fname} ${author.lname}`;
+});
 </script>
 
 <template>

@@ -233,18 +233,40 @@
 	},
 	"ref with type": {
 		"prefix": "úreft",
-		"description": "Reactice object with type",
+		"description": "Reactice variable with type",
 		"body": [
 			"const reactive = ref(0);",
 		]
 	},
 	"ref": {
 		"prefix": "úref",
-		"description": "Reactive object",
+		"description": "Reactive variable",
 		"body": [
 			"const reactive: Ref<number> = ref(0);",
 		]
 	},
+	"reactive": {
+		"prefix": "úreactive",
+		"description": "Reactive object",
+		"body": [
+			"\tconst author = reactive({",
+			"\t\tfname: \"John\",",
+			"\t\tlname: \"Doe\",",
+			"\t\tbooks: [\"Vue 2 - Advanced Guide\", \"Vue 3 - Basic Guide\"]",
+			"\t})",
+		]
+	},
+	"computed": {
+		"prefix": "úcomputed",
+		"description": "computed property",
+		"body": [
+			"const fullName = computed(() => {",
+			"\treturn `${author.fname} ${author.lname}`;",
+			"});"
+		]
+	},
+
+
 	"props typed": {
 		"prefix": "úpropst",
 		"description": "Typed props",
