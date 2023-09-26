@@ -245,6 +245,32 @@
 			"const reactive: Ref<number> = ref(0);",
 		]
 	},
+	"props typed": {
+		"prefix": "propst",
+		"description": "Typed props",
+		"body": [
+			"const props = defineProps<{"
+			"	email: string;",
+			"	password: string;",
+			"	showDialog: boolean;",
+			"}>();",
+		]
+	},
+	"props typed default": {
+		"prefix": "propstd",
+		"description": "Typed props with default values",
+		"body": [
+			"interface IProps {",
+			"	email?: string;",
+			"	password?: string;",
+			"	showDialog: boolean;",
+			"}",
+			"const props = withDefaults(defineProps<IProps>(), {",
+			"	email: \"student001@jedlik.eu\",",
+			"	password: \"student001\",
+			"});","
+		]
+	},
 
 
 	// Place your jedlik-frontend-starter workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
