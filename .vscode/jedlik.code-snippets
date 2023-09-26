@@ -262,10 +262,9 @@
 		"description": "Typed props with default values",
 		"body": [
 			"interface IProps {",
-
-				"\t email?: string;",
-				"\t password?: string;",
-				"\t showDialog: boolean;",
+			"\temail?: string;",
+			"\tpassword?: string;",
+			"\tshowDialog: boolean;",
 			"}",
 			"const props = withDefaults(defineProps<IProps>(), {",
 			"\temail: \"student001@jedlik.eu\",",
