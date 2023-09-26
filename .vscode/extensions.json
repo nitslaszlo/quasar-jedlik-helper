@@ -12,7 +12,8 @@
     "antfu.iconify",
     "christian-kohler.npm-intellisense",
     "vue.volar",
-    "lokalise.i18n-ally"
+    "lokalise.i18n-ally",
+    "anderseandersen.html-class-suggestions"
   ],
   "unwantedRecommendations": [
     "octref.vetur",
