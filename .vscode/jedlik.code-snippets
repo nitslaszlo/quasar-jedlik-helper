@@ -207,7 +207,7 @@
 	},
 	"Quasar Button": {
 		"prefix": "q-btn",
-		"description": "Insert Quasar Button",
+		"description": "Quasar Button",
 		"body": [
 		  "<q-btn color=\"primary\" glossy icon=\"mdi-mail\" label=\"OK\" no-caps stack to=\"/\" />",
 		]
@@ -231,6 +231,21 @@
 			"<q-input v-model=\"nev\" clearable label=\"Név\" outlined />",
 		]
 	},
+	"ref with type": {
+		"prefix": "reft",
+		"description": "Reactice object with type",
+		"body": [
+			"const reactive = ref(0);",
+		]
+	},
+	"ref": {
+		"prefix": "ref",
+		"description": "Reactive object",
+		"body": [
+			"const reactive: Ref<number> = ref(0);",
+		]
+	},
+
 
 	// Place your jedlik-frontend-starter workspace snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
 	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
