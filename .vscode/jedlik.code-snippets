@@ -111,7 +111,7 @@
   },
   "Margin classes - Margin/Padding": {
     "prefix": ["ím"],
-    "body": ["í-${1|m,p|}${2|a,t,r,b,l,x,y|}-${3|\u200B,xs-,sm-,md-,lg-,xl-|}${4|xs,sm,md,lg,xl,none,auto|}"],
+    "body": ["q-${1|m,p|}${2|a,t,r,b,l,x,y|}-${3|\u200B,xs-,sm-,md-,lg-,xl-|}${4|xs,sm,md,lg,xl,none,auto|}"],
     "description": "q-(m|p)-(a|t|r|b|l|x|y)-[xs|sm|md|lg|xl]-(xs|sm|md|lg|xl|none|auto) /*auto - ONLY for: q-ml-*, q-mr-*, q-mx-* */"
   },
   "Margin Classes - No margin/No padding": {
@@ -166,12 +166,12 @@
   },
   "Flex child - Gutter": {
     "prefix": ["ífc"],
-    "body": ["í-gutter-${1|\u200B,xs-,sm-,md-,lg-,xl-|}${2|\u200B,x-,y-|}${3|xs,sm,md,lg,xl|}"],
+    "body": ["q-gutter-${1|\u200B,xs-,sm-,md-,lg-,xl-|}${2|\u200B,x-,y-|}${3|xs,sm,md,lg,xl|}"],
     "description": "q-gutter-[xs|sm|md|lg|xl]-[x,y]-(xs|sm|md|lg|xl)"
   },
   "Flex child - Col gutter": {
     "prefix": ["ífc"],
-    "body": ["í-col-gutter-${1|\u200B,x-,y-|}${2|xs,sm,md,lg,xl|}"],
+    "body": ["q-col-gutter-${1|\u200B,x-,y-|}${2|xs,sm,md,lg,xl|}"],
     "description": "q-col-gutter-[x,y]-(xs|sm|md|lg|xl)"
   },
   "Flex child - Order": {
