@@ -96,7 +96,9 @@ majd:
 > npm run format
 
 ## 6. Nyomkövetés
+
 A **launch.json** állomány létrehozása a .vscode mappába a következő tartalommal:
+
 ```
 {
   // Use IntelliSense to learn about possible attributes.
@@ -159,6 +161,7 @@ A **quasar.config.js** állományt kell bővíteni:
       plugins: ["Notify", "Dialog", "Loading", "LocalStorage"],
     },
 ```
+
 Néhány példa használatukra (Loading, Notify) az **ExampleComponent.vue** állományban.
 
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).

@@ -16,9 +16,7 @@
       "sourceMapPathOverrides": {
         "webpack://package-name/./src/*": "${webRoot}/*"
       },
-      "skipFiles": [
-        "${workspaceFolder}/node_modules/**/*"
-      ]
+      "skipFiles": ["${workspaceFolder}/node_modules/**/*"]
     },
     {
       "type": "chrome",
@@ -32,9 +30,7 @@
       "sourceMapPathOverrides": {
         "webpack://package-name/./src/*": "${webRoot}/*"
       },
-      "skipFiles": [
-        "${workspaceFolder}/node_modules/**/*"
-      ]
+      "skipFiles": ["${workspaceFolder}/node_modules/**/*"]
     }
   ]
 }
